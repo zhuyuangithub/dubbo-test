@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: user-service
+  registry:
+    address: localhost:2181
+    protocol: zookeeper
+  protocol:
+    name: dubbo
+    port: 20880
+    host: 192.168.28.206
+  monitor:
+    protocol: registry
+
+
+
+
